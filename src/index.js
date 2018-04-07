@@ -50,10 +50,26 @@ export default Icon;
 
 //Example of use ────────────────────────────────────────────────────────────────────────────────
 
-// <Icon
-//   name=''
-//   font=''
-//   size={40}
-//   color=''
-//   style={{}}
-// />
+// import Icon, { FontAwesome, Feather } from 'react-js-vector-icons';
+
+//   <Icon 
+//     name='tools'
+//     font='Entypo'
+//     color='white'
+//     size={40}
+//     // style={{}}
+//   />
+
+//   <FontAwesome 
+//     name='bell'
+//     color='white'
+//     size={40}
+//     // style={{}}
+//   />
+
+//   <Feather 
+//     name='award'
+//     color='white'
+//     size={40}
+//     // style={{}}
+//   />
