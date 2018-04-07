@@ -1,0 +1,26 @@
+{
+  "name": "react-js-vector-icons",
+  "version": "0.0.2",
+  "description": "An adaptation of react-native-vector-icons for reactjs",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "react": "^16.3.1"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "webpack": "^4.5.0"
+  },
+  "scripts": {
+    "prod": "npm run clean && webpack --mode production",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "webpack-cli": "^2.0.14"
+  }
+}

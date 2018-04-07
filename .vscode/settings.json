@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        ".eslintrc.js": true,
+        ".gitignore": true,
+        "README.md": true,
+        "LICENSE": true
+    }
+}
