@@ -8,7 +8,7 @@
         "node_modules": true,
         ".eslintrc.js": true,
         ".gitignore": true,
-        "README.md": true,
+        // "README.md": true,
         "LICENSE": true
     }
 }
