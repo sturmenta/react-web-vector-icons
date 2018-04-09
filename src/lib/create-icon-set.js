@@ -8,11 +8,8 @@ export default function createIconSet(glyphMap, fontFamily) {
 
       let glyph = props.name ? glyphMap[props.name] || '?' : '';
       if (typeof glyph === 'number') {
-        console.log(glyph);
         glyph = String.fromCharCode(glyph);
       }
-
-      console.log(glyph);
 
       let style = _([
         style = {
@@ -28,9 +25,9 @@ export default function createIconSet(glyphMap, fontFamily) {
       ]);
 
       return (
-        <p style={style}>
+        <i style={style}>
           {glyph}
-        </p>
+        </i>
       );
     }
   }
