@@ -49,7 +49,6 @@ import Icon, { FontAwesome, Feather } from 'react-js-vector-icons';
   // style={{}}
 />
 ```
--------- Soon a very complete demo --------
 
 ## Special thanks to: https://github.com/oblador
 
