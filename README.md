@@ -26,8 +26,7 @@ require('react-js-vector-icons/fonts');
 
 ```javascript
 import Icon, { FontAwesome, Feather } from 'react-js-vector-icons';
-```
-```html
+
 <Icon 
   name='tools'
   font='Entypo'
