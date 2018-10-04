@@ -1,5 +1,6 @@
 import createIcon from './lib/create-icon-set';
 
+export const AntDesign = createIcon(require('./glyphmaps/AntDesign.json'), 'AntDesign');
 export const Entypo = createIcon(require('./glyphmaps/Entypo.json'), 'Entypo');
 export const EvilIcons = createIcon(require('./glyphmaps/EvilIcons.json'), 'EvilIcons');
 export const Feather = createIcon(require('./glyphmaps/Feather.json'), 'Feather');
@@ -20,6 +21,7 @@ class Icon extends Component{
   render(){
     let Icon = null;
     switch (this.props.font) {
+      case 'AntDesign': Icon = AntDesign; break;
       case 'Entypo': Icon = Entypo; break;
       case 'EvilIcons': Icon = EvilIcons; break;
       case 'Feather': Icon = Feather; break;
@@ -45,31 +47,3 @@ class Icon extends Component{
 }
 
 export default Icon;
-
-//An adaptation to use all the icons provided by https://github.com/oblador/react-native-vector-icons
-
-//Example of use ────────────────────────────────────────────────────────────────────────────────
-
-// import Icon, { FontAwesome, Feather } from 'react-js-vector-icons';
-
-//   <Icon 
-//     name='tools'
-//     font='Entypo'
-//     color='white'
-//     size={40}
-//     // style={{}}
-//   />
-
-//   <FontAwesome 
-//     name='bell'
-//     color='white'
-//     size={40}
-//     // style={{}}
-//   />
-
-//   <Feather 
-//     name='award'
-//     color='white'
-//     size={40}
-//     // style={{}}
-//   />

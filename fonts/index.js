@@ -1,4 +1,5 @@
 module.exports = {
+  AntDesign: require('./AntDesign.ttf'),
   Entypo: require('./Entypo.ttf'),
   EvilIcons: require('./EvilIcons.ttf'),
   Feather: require('./Feather.ttf'),
@@ -7,7 +8,7 @@ module.exports = {
   Ionicons: require('./Ionicons.ttf'),
   MaterialCommunityIcons: require('./MaterialCommunityIcons.ttf'),
   MaterialIcons: require('./MaterialIcons.ttf'),
-  Octicons: require('./Octicons.ttf'),
   SimpleLineIcons: require('./SimpleLineIcons.ttf'),
+  Octicons: require('./Octicons.ttf'),
   Zocial: require('./Zocial.ttf'),
-}
+};
