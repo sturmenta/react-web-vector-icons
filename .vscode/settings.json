@@ -7,7 +7,7 @@
         "**/.DS_Store": true,
         // "node_modules": true,
         ".eslintrc.js": true,
-        ".gitignore": true,
+        // ".gitignore": true,
         // "README.md": true,
         "LICENSE": true
     }

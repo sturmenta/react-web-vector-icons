@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "react-web-vector-icons": "1.0.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
