@@ -1,11 +1,11 @@
-# react-js-vector-icons
-An adaptation of react-native-vector-icons for reactjs
+# react-web-vector-icons
+An adaptation of react-native-vector-icons for react-web
 
 ## Installation
  - Install npm package
 
 ```sh
-npm i -S react-js-vector-icons
+npm i -S react-web-vector-icons
 ```
 
 ## Usage
@@ -19,13 +19,13 @@ npm i -S react-js-vector-icons
 2 - Add require of fonts for webpack in your index.js file
 
 ```javascript
-require('react-js-vector-icons/fonts');
+require('react-web-vector-icons/fonts');
 ```
 
 3 - Use
 
 ```javascript
-import Icon, { FontAwesome, Feather } from 'react-js-vector-icons';
+import Icon, { FontAwesome, Feather } from 'react-web-vector-icons';
 
 <Icon
   name='tools'

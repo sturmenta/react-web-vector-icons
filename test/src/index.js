@@ -14,8 +14,8 @@ import Icon, {
 	SimpleLineIcons,
 	Octicons,
 	Zocial,
-} from 'react-js-vector-icons';
-require('react-js-vector-icons/fonts');
+} from 'react-web-vector-icons';
+require('react-web-vector-icons/fonts');
 
 const Index = () => {
 	return (

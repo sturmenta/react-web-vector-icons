@@ -1,20 +1,19 @@
 {
-  "name": "react-js-vector-icons",
-  "version": "0.0.4",
-  "description": "An adaptation of react-native-vector-icons for reactjs",
+  "name": "react-web-vector-icons",
+  "version": "1.0.0",
+  "description": "An adaptation of react-native-vector-icons for react web",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sturmenta/react-js-vector-icons.git"
+    "url": "git+https://github.com/sturmenta/react-web-vector-icons.git"
   },
   "keywords": [
     "react",
-    "reactjs",
     "icon",
     "icons",
     "vector",
     "vector-icons",
-    "react-js-vector-icons",
+    "react-web-vector-icons",
     "react-native-vector-icons",
     "oblador",
     "sturmenta",
@@ -36,9 +35,9 @@
   "author": "Nicolas Sturm <sturmenta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sturmenta/react-js-vector-icons/issues"
+    "url": "https://github.com/sturmenta/react-web-vector-icons/issues"
   },
-  "homepage": "https://github.com/sturmenta/react-js-vector-icons#readme",
+  "homepage": "https://github.com/sturmenta/react-web-vector-icons#readme",
   "peerDependencies": {
     "react": "^16.3.1"
   },
