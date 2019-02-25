@@ -1,6 +1,6 @@
 {
   "name": "react-web-vector-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An adaptation of react-native-vector-icons for react web",
   "main": "dist/index.js",
   "repository": {
