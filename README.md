@@ -1,6 +1,10 @@
 # react-web-vector-icons
 An adaptation of react-native-vector-icons for react-web
 
+## IMPORTANT
+
+[Alternatively you can follow the steps of this gist to use react-native-vector-icons on the web](https://gist.github.com/sturmenta/246e8cb61dc891a29f8a36eceb55d529)
+
 ## Installation
  - Install npm package
 
