@@ -1,114 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      @font-face {
+        font-family: AntDesign;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/AntDesign.ttf) format('truetype');
+      }
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<style>
-		@font-face {
-			font-family: AntDesign;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/AntDesign.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: Entypo;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/Entypo.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: Entypo;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/Entypo.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: EvilIcons;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/EvilIcons.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: EvilIcons;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/EvilIcons.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: Feather;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/Feather.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: Feather;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/Feather.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/FontAwesome.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/FontAwesome.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: FontAwesome5Brands;
+        src: url(fonts/FontAwesome5_Brands.ttf);
+        font-display: auto;
+      }
 
-		@font-face {
-			font-family: FontAwesome5;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/FontAwesome5.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: FontAwesome5Regular;
+        src: url(fonts/FontAwesome5_Regular.ttf);
+        font-display: auto;
+      }
 
-		@font-face {
-			font-family: FontAwesome5Brands;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/FontAwesome5_Brands.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: FontAwesome5Solid;
+        src: url(fonts/FontAwesome5_Solid.ttf);
+        font-display: auto;
+      }
 
-		@font-face {
-			font-family: Foundation;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/Foundation.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: Foundation;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/Foundation.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: Ionicons;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/Ionicons.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: Ionicons;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/Ionicons.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: MaterialCommunityIcons;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/MaterialCommunityIcons.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: MaterialCommunityIcons;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/MaterialCommunityIcons.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: MaterialIcons;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/MaterialIcons.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: MaterialIcons;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/MaterialIcons.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: Octicons;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/Octicons.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: Octicons;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/Octicons.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: SimpleLineIcons;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/SimpleLineIcons.ttf) format('truetype')
-		}
+      @font-face {
+        font-family: SimpleLineIcons;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/SimpleLineIcons.ttf) format('truetype');
+      }
 
-		@font-face {
-			font-family: Zocial;
-			font-style: normal;
-			font-weight: 400;
-			src: url(fonts/Zocial.ttf) format('truetype')
-		}
-	</style>
-	<title>Test React web vector icons</title>
-</head>
+      @font-face {
+        font-family: Zocial;
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/Zocial.ttf) format('truetype');
+      }
+    </style>
+    <title>Test React web vector icons</title>
+  </head>
 
-<body>
-	<section id="index"></section>
-</body>
-
+  <body>
+    <section id="index"></section>
+  </body>
 </html>
