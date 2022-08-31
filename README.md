@@ -1,9 +1,11 @@
+## IMPORTANT - repository out of maintenance
+
+the original repo is this -> [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) and with [this steps you can use native package on web](https://gist.github.com/sturmenta/246e8cb61dc891a29f8a36eceb55d529) using [webpack](https://webpack.js.org/)
+
+---
+
 # react-web-vector-icons
 An adaptation of react-native-vector-icons for react-web
-
-## IMPORTANT
-
-[Alternatively you can follow the steps of this gist to use react-native-vector-icons on the web](https://gist.github.com/sturmenta/246e8cb61dc891a29f8a36eceb55d529)
 
 ## Installation
  - Install npm package
