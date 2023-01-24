@@ -1,10 +1,12 @@
 import createIcon from './lib/create-icon-set';
+import createFA5iconSet from './lib/create-icon-set-from-fontawesome5';
 
 export const AntDesign = createIcon(require('./glyphmaps/AntDesign.json'), 'AntDesign');
 export const Entypo = createIcon(require('./glyphmaps/Entypo.json'), 'Entypo');
 export const EvilIcons = createIcon(require('./glyphmaps/EvilIcons.json'), 'EvilIcons');
 export const Feather = createIcon(require('./glyphmaps/Feather.json'), 'Feather');
 export const FontAwesome = createIcon(require('./glyphmaps/FontAwesome.json'), 'FontAwesome');
+export const FontAwesome5 = createFA5iconSet();
 export const Foundation = createIcon(require('./glyphmaps/Foundation.json'), 'Foundation');
 export const Ionicons = createIcon(require('./glyphmaps/Ionicons.json'), 'Ionicons');
 export const MaterialCommunityIcons = createIcon(require('./glyphmaps/MaterialCommunityIcons.json'), 'MaterialCommunityIcons');
@@ -26,6 +28,7 @@ class Icon extends Component{
       case 'EvilIcons': Icon = EvilIcons; break;
       case 'Feather': Icon = Feather; break;
       case 'FontAwesome': Icon = FontAwesome; break;
+      case 'FontAwesome5': Icon = FontAwesome5; break;
       case 'Foundation': Icon = Foundation; break;
       case 'Ionicons': Icon = Ionicons; break;
       case 'MaterialIcons': Icon = MaterialIcons; break;
@@ -41,6 +44,7 @@ class Icon extends Component{
         color={this.props.color ? this.props.color : 'grey'}
         size={this.props.size ? this.props.size : 30}
         style={this.props.style}
+        {...this.props}
       />
     );
   }
